@@ -322,7 +322,7 @@ const Page = () => {
               </IndexCardLink>
 
               <IndexCardLink to="/tools/alteruser_utility">
-                EDB SQL Patch
+                alteruser
               </IndexCardLink>
 
               <IndexCardLink to="/language_pack/latest/">
