@@ -19,6 +19,6 @@ Unsupported Oracle data types include:
 - XML
 - Spatial
 
-Don't use EDB Transporter for replicating Oracle tables that contain BLOB, CLOB, or NCLOB columns that are expected to change. These changes are not captured in the CDC replication.
+Don't use EDB Transporter for replicating Oracle tables that contain BLOB, CLOB, or NCLOB columns that are expected to change. These types are supported for snapshots but are not captured in the streaming CDC replication.
 
-`BINARY_FLOAT` and `BINARY_DOUBLE` types in Oracle might contain `Nan`, `+INF`, and `-INF` values are not supported by EDB Transporter.
+`BINARY_FLOAT` and `BINARY_DOUBLE` types in Oracle that might contain `Nan`, `+INF`, and `-INF` values are not supported by EDB Transporter.
